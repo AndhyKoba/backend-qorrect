@@ -7,7 +7,7 @@ const User = require("./models/User");
 
 const app = express();
 app.use(cors({
-  origin: "https://frontend-qorrect.vercel.app",
+  origin: "https://qorrect.vercel.app",
   credentials: true
 }));
 
